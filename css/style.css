@@ -1,0 +1,185 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #202839;
+  background: #eef2f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    radial-gradient(circle at 78% 12%, rgba(255, 255, 255, 0.94), transparent 42rem),
+    linear-gradient(135deg, #eef2f7, #f8fafc);
+}
+
+.page-shell {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.hero,
+.section {
+  display: grid;
+  gap: 32px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 20px 56px rgba(65, 77, 98, 0.14);
+  backdrop-filter: blur(20px);
+}
+
+.hero {
+  grid-template-columns: 0.9fr 1.4fr;
+  align-items: center;
+}
+
+.section {
+  grid-template-columns: 0.75fr 1fr;
+  align-items: start;
+  margin-top: 32px;
+}
+
+.section.compact {
+  grid-template-columns: 1fr;
+}
+
+.demo-section {
+  align-items: center;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: clamp(3rem, 7vw, 5.2rem);
+  letter-spacing: -0.07em;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-size: 2rem;
+  letter-spacing: -0.04em;
+}
+
+p {
+  line-height: 1.7;
+  color: #5b6679;
+}
+
+.eyebrow {
+  margin-bottom: 8px;
+  color: #7a56a2;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.tagline {
+  color: #3f4a60;
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+.summary {
+  max-width: 34rem;
+}
+
+.hero-image,
+.contact-sheet {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.state-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.state-button {
+  padding: 9px 13px;
+  border: 1px solid #dfe5ed;
+  border-radius: 999px;
+  color: #4a5569;
+  background: #f7f9fc;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.state-button:hover,
+.state-button.active {
+  color: #fff;
+  background: #7a56a2;
+  border-color: #7a56a2;
+}
+
+.pet-stage {
+  display: grid;
+  min-height: 340px;
+  place-items: center;
+  border-radius: 20px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.92), rgba(232, 238, 246, 0.78));
+}
+
+.pet-canvas {
+  width: min(100%, 320px);
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button.primary {
+  color: #fff;
+  background: #313a4d;
+}
+
+.button.secondary {
+  color: #313a4d;
+  background: #e9edf3;
+}
+
+code {
+  padding: 0.18em 0.4em;
+  border-radius: 0.4em;
+  background: #e9edf3;
+}
+
+@media (max-width: 860px) {
+  .hero,
+  .section {
+    grid-template-columns: 1fr;
+  }
+
+  .page-shell {
+    padding: 24px 0;
+  }
+}

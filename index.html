@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doro Codex Pet: a lightweight custom desktop pet for Codex.">
+    <title>Doro Codex Pet</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Custom Codex desktop pet</p>
+          <h1>Doro Codex Pet</h1>
+          <p class="tagline">Cute. Lightweight. Desktop friendly.</p>
+          <p class="summary">
+            A polished Doro-inspired plush mascot package with nine animation
+            states for Codex desktop.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="./spritesheet.webp" download>Download spritesheet</a>
+            <a class="button secondary" href="./pet.json" download>Download pet.json</a>
+          </div>
+        </div>
+        <img
+          class="hero-image"
+          src="./assets/screenshots/preview.png"
+          alt="Doro Codex Pet preview with animation states"
+        >
+      </header>
+
+      <section class="section">
+        <div>
+          <p class="eyebrow">Animation atlas</p>
+          <h2>Nine desktop states</h2>
+          <p>
+            Idle, directional movement, greeting, success, failure, waiting,
+            working, and review states are packed into one lightweight WebP atlas.
+          </p>
+        </div>
+        <img
+          class="contact-sheet"
+          src="./assets/screenshots/contact-sheet.png"
+          alt="Doro Codex Pet contact sheet showing all animation states"
+        >
+      </section>
+
+      <section class="section demo-section">
+        <div>
+          <p class="eyebrow">Interactive preview</p>
+          <h2>Try the animation states</h2>
+          <p>
+            This local preview reads directly from the release spritesheet.
+            Choose a state to see the same frames used by the desktop pet.
+          </p>
+          <div class="state-picker" aria-label="Doro animation states"></div>
+        </div>
+        <div class="pet-stage">
+          <canvas
+            class="pet-canvas"
+            width="384"
+            height="416"
+            aria-label="Animated Doro desktop pet preview"
+          ></canvas>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div>
+          <p class="eyebrow">Install</p>
+          <h2>Use it locally</h2>
+          <p>
+            Copy <code>pet.json</code> and <code>spritesheet.webp</code> into
+            <code>~/.codex/pets/doro-codex-pet/</code>, then select the custom pet in Codex.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
