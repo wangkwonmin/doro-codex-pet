@@ -6,7 +6,7 @@ A lightweight custom desktop pet package for Codex, featuring a soft Doro-inspir
 
 ## Live Demo
 
-GitHub Pages URL: `https://<your-github-username>.github.io/Doro-Codex-Pet/`
+GitHub Pages URL: `https://wangkwonmin.github.io/doro-codex-pet/`
 
 ## Features
 
