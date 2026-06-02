@@ -84,7 +84,7 @@ No framework, package manager, backend, or build process is required.
 ## Project Structure
 
 ```text
-Doro-Codex-Pet/
+doro-codex-pet/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
