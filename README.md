@@ -53,7 +53,7 @@ select the default branch, and publish from the repository root (`/`).
 After GitHub Pages is enabled, visit:
 
 ```text
-https://<your-github-username>.github.io/Doro-Codex-Pet/
+https://wangkwonmin.github.io/doro-codex-pet/
 ```
 
 ## Animation States
