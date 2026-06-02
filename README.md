@@ -107,6 +107,12 @@ Doro-Codex-Pet/
 - Add a short installation GIF
 - Add community screenshots
 
+## Disclaimer
+
+This is an unofficial fan-made project inspired by Doro-style desktop mascots.  
+This project is not affiliated with, endorsed by, or sponsored by OpenAI, Codex, or any related rights holders.  
+All character references, names, and trademarks belong to their respective owners.
+
 ## License
 
 Released under the [MIT License](./LICENSE).
